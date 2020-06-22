@@ -26,7 +26,6 @@ export default function Post({ postData }) {
 export async function getStaticPaths() {
   const paths = getAllPostIds();
   //hello 
-  //adfsad
   return {
     paths,
     fallback: false,
