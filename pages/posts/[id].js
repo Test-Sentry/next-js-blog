@@ -25,7 +25,8 @@ export default function Post({ postData }) {
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
-  //hello
+  //hello 
+  //lol
   return {
     paths,
     fallback: false,
